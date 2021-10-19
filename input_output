@@ -1,0 +1,9 @@
+address = input("Enter address: ")
+print("address :- " + address)
+
+num = int(input("Enter a value: "))
+print("Number + 20 is :- ", num+20)
+
+print("y is ,y")
+
+print("{} will help bigenner to achieve perfection".format("practice"))
