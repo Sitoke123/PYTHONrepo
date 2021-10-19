@@ -1,0 +1,64 @@
+list = [1, "Hello", 7]
+
+list = ["car", [1, 2, 3], ['p']]
+
+list = ['a','h','i','m','s','a']
+
+print(list[2])  
+print(list[3])  
+
+n_list = ["Prahlad", [1, 0, 5, 9]]
+
+
+print(n_list[0][1])
+print(n_list[1][3])
+
+List = [1,2,3]
+
+print("Initial List: ")
+print(List)
+
+List.insert(3, 12)
+List.insert(0, 'alfa')
+
+print("\nList after performing Insert Operation: ")
+print(List)
+
+list = ['a','b','c','d','e','f','g','h','i']
+
+print(list[2:6])
+
+
+print(list[:-6])
+
+print(list[5:])
+
+print(list[:])
+
+word = [1, 3, 9]
+word.append(2)
+
+print(word)
+
+list = ['t', 'u', 'v', 'w', 'x', 'y', 'z']
+
+del list[1]
+print(list)
+
+del list
+
+colors = ['yellow', 'red', 'black']
+colors.sort()
+print(colors)
+
+colors = ['black', 'yellow', 'red']
+colors.pop(1)
+print(colors)
+
+start= [7, 8, 10]
+print(start+[1, 2, 3])
+print(["pro"] * 4)
+
+colors = ['yellow', 'black', 'red']
+colors.reverse()
+print(colors)
